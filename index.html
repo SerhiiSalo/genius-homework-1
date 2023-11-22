@@ -11,13 +11,14 @@
   <header>
     <nav>
       <a href="#">
-        <!-- Logo -->
+        <!-- Logo  -->
+        <!-- target="_blank" -->
       </a>
       <ul>
-        <li><a href="#" target="_blank">Про нас</a></li>
-        <li><a href="#" target="_blank">Чому ми</a></li>
-        <li><a href="#" target="_blank">Наші процедури</a></li>
-        <li><a href="#" target="_blank">Контакти</a></li>
+        <li><a href="#about-me">Про нас</a></li>
+        <li><a href="#why-us">Чому ми</a></li>
+        <li><a href="#our_procedures">Наші процедури</a></li>
+        <li><a href="#contacts">Контакти</a></li>
       </ul>
       <article>
         <ul>
@@ -45,13 +46,12 @@
   <main>
 
     <section>
-      <h1>Косметологічна клініка</h1>
-      <h2 lang="en">Beauty Zone</h2>
+      <h1>Косметологічна клініка <span lang="en">Beauty Zone</span></h1>
       <button type="button">Замовити дзвінок</button>
       <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
     </section>
 
-    <section>
+    <section id="about-me">
       <h2>Перевтілюйтесь в <span lang="en">Beauty Zone!</span></h2>
       <p>Наша косметологічна клініка пропонує вам професійні послуги з догляду за шкірою обличчя та тіла.</p>
       <p>B <span lang="en">Beauty Zone</span> ми гарантуємо найвищі стандарти якості
@@ -61,7 +61,7 @@
       <img src="./images/face_bad_good.jpg" alt="Жінка до процедур та після" />
     </section>
 
-    <section>
+    <section id="why-us">
       <h2>Чому люди <span>обирають нас</span></h2>
       <lu>
         <li>
@@ -82,33 +82,35 @@
       </lu>
     </section>
 
-    <section>
-      <h2>Наші <span>процедури</span></h2>
-      <lu>
-        <li>
-          <article>
+    <section id="our_procedures">
+
+      <article>
+        <h2>Наші <span>процедури</span></h2>
+        <lu>
+          <li>
             <p>Маски для обличчя</p>
-            <img src="./images/procedure_1.jpg" alt="Процедура 1" />
-          </article>
-        </li>
-        <li>
-          <article>
-            <img src="./images/procedure_2.jpg" alt="Процедура 2" />
-          </article>
-        </li>
-        <li>
-          <article>
-            <img src="./images/procedure_3.jpg" alt="Процедура 3" />
-          </article>
-        </li>
-      </lu>
+            <img src="./images/procedure_1.jpg" alt="Процедура Маски для обличчя" />
+          </li>
+          <li>
+            <p>Ін'єкції для обличчя</p>
+            <img src="./images/procedure_2.jpg" alt="Процедура Ін'єкції для обличчя" />
+          </li>
+          <li>
+            <p>Очищення обличчя</p>
+            <img src="./images/procedure_3.jpg" alt="Процедура Очищення обличчя" />
+          </li>
+        </lu>
+      </article>
     </section>
 
-    <section>
+    <section id="contacts">
       <h2>Як нас <span>знайти</span></h2>
       <lu>
         <li>
-          <img src="./images/map.jpg" alt="Карта" />
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.932390060963!2d30.51559501265881!3d50.44235998782706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1700513783815!5m2!1sru!2sua"
+            width="605" height="481" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </li>
         <li>
           <h3>Запишіться <span>безкоштовно</span> та отримайте подарунок</h3>
@@ -128,13 +130,13 @@
         <!-- Logo -->
       </a>
       <ul>
-        <li><a href="#" target="_blank">Про нас</a></li>
-        <li><a href="#" target="_blank">Чому ми</a></li>
-        <li><a href="#" target="_blank">Наші процедури</a></li>
-        <li><a href="#" target="_blank">Контакти</a></li>
+        <li><a href="#about-me">Про нас</a></li>
+        <li><a href="#why-us">Чому ми</a></li>
+        <li><a href="#our_procedures">Наші процедури</a></li>
+        <li><a href="#contacts">Контакти</a></li>
       </ul>
     </nav>
-    <addres>
+    <address>
       <ul>
         <li>
           <a href="tel:+380960000007">+ 38 (096) 000 00 07</a>
@@ -162,10 +164,10 @@
           </a>
         </li>
       </ul>
-      <a href="#" target="_blank"> Політика конфіденційності </a>
-      <p>© 2023 Дані захищені</p>
-      <img src="./images/tools.jpg" alt="Інструменти" />
-    </addres>
+    </address>
+    <a href="#" target="_blank"> Політика конфіденційності </a>
+    <p>&copy; 2023 Дані захищені</p>
+    <img src="./images/tools.jpg" alt="Інструменти" />
   </footer>
 </body>
 
