@@ -5,20 +5,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Косметологічна клініка</title>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
   <header>
     <nav>
-      <a href="#">
-        <!-- Logo  -->
-        <!-- target="_blank" -->
-      </a>
+      <span lang="en">Beauty Zone</span>
       <ul>
-        <li><a href="#about-me">Про нас</a></li>
-        <li><a href="#why-us">Чому ми</a></li>
-        <li><a href="#our_procedures">Наші процедури</a></li>
-        <li><a href="#contacts">Контакти</a></li>
+        <li><a class="el-color-main" href="#about-me">Про нас</a></li>
+        <li><a class="color-general-el" href="#why-us">Чому ми</a></li>
+        <li><a class="color-general-el" href="#our_procedures">Наші процедури</a></li>
+        <li><a class="color-general-el" href="#contacts">Контакти</a></li>
       </ul>
       <article>
         <ul>
@@ -45,14 +43,18 @@
 
   <main>
 
-    <section>
-      <h1>Косметологічна клініка <span lang="en">Beauty Zone</span></h1>
-      <button type="button">Замовити дзвінок</button>
+    <section class="color-general-el">
+      <h1>Косметологічна клініка
+        <span class="el-color-main" lang="en">Beauty Zone</span>
+      </h1>
+      <button class="button-general button-call-order" type="button">Замовити дзвінок</button>
       <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
     </section>
 
-    <section id="about-me">
-      <h2>Перевтілюйтесь в <span lang="en">Beauty Zone!</span></h2>
+    <section class="color-general-el" id="about-me">
+      <h2>Перевтілюйтесь в
+        <span class="el-color-main" lang="en">Beauty Zone!</span>
+      </h2>
       <p>Наша косметологічна клініка пропонує вам професійні послуги з догляду за шкірою обличчя та тіла.</p>
       <p>B <span lang="en">Beauty Zone</span> ми гарантуємо найвищі стандарти якості
         та приємний сервіс. Наші косметологічні процедури та препарати допоможуть вам підтримувати свою красу та
@@ -61,10 +63,10 @@
       <img src="./images/face_bad_good.jpg" alt="Жінка до процедур та після" />
     </section>
 
-    <section id="why-us">
+    <section id="why-us" class="color-general-el">
       <article>
         <header>
-          <h2>Чому люди <span>обирають нас</span></h2>
+          <h2>Чому люди <span class="el-color-main">обирають нас</span></h2>
         </header>
         <section>
           <p>Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5 років</p>
@@ -78,11 +80,13 @@
       </article>
     </section>
 
-    <section id="our_procedures">
+    <section id="our_procedures" class="color-general-el">
 
       <article>
         <header>
-          <h2>Наші <span>процедури</span></h2>
+          <h2>Наші
+            <span class="el-color-main">процедури</span>
+          </h2>
         </header>
         <ul>
           <li>
@@ -101,8 +105,10 @@
       </article>
     </section>
 
-    <section id="contacts">
-      <h2>Як нас <span>знайти</span></h2>
+    <section id="contacts" class="color-general-el">
+      <h2>Як нас
+        <span class="el-color-main">знайти</span>
+      </h2>
       <ul>
         <li>
           <iframe
@@ -111,11 +117,15 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </li>
         <li>
-          <h3>Запишіться <span>безкоштовно</span> та отримайте подарунок</h3>
+          <h3>Запишіться
+            <span class="el-color-main">безкоштовно</span>
+            та отримайте подарунок
+          </h3>
           <p>Ваше ім'я та прізвище</p>
           <p>Ваш номер телефону</p>
           <p>Ваша електронна пошта</p>
-          <button type="button">Записатись безкоштовно</button>
+          <button class="background-color-el button-general button-write-free" type="button">Записатись
+            безкоштовно</button>
           <p>Натискаючи на кнопку я погоджуюсь</p>
           <a href="#" target="_blank">з політикою конфіденційності</a>
         </li>

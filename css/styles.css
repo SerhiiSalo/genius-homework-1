@@ -1,0 +1,36 @@
+.el-color-main {
+	color: #2b7fff;
+}
+
+.color-general-el {
+	color: #011c44;
+}
+
+.button-general {
+	height: 53px;
+	padding: 16px 32px 16px 32px;
+	border-radius: 32px;
+	border-width: 2px;
+	gap: 10px;
+	border-color: #2b7fff;
+	color: white;
+	cursor: pointer;
+	background-color: #2b7fff;
+}
+
+.button-general:hover {
+	background-color: transparent;
+	color: #2b7fff;
+}
+
+.button-call-order {
+	width: 219px;
+}
+
+.button-write-free {
+	width: 281px;
+}
+
+ul {
+	list-style-type: none;
+}
